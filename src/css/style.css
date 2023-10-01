@@ -1,0 +1,22 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-store-game\/src\/sass\/_base\.sass}line{font-family:\0000311}}
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-store-game\/src\/sass\/_base\.sass}line{font-family:\0000316}}
+html {
+  font-size: 62.5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-store-game\/src\/sass\/_base\.sass}line{font-family:\0000319}}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #F5F5F5;
+  line-height: 113%;
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=style.css.map */
