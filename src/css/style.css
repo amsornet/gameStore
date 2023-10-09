@@ -1,22 +1,25 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-store-game\/src\/sass\/_base\.sass}line{font-family:\0000311}}
-*, ::after, ::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+*, ::after, ::before { margin: 0; padding: 0; box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-store-game\/src\/sass\/_base\.sass}line{font-family:\0000316}}
-html {
-  font-size: 62.5%;
-}
+html { font-size: 62.5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/amsor\/Documents\/stepik\%20html_css\/HTML_Fokeev\/Advansed\%20WEB_HTML\&CSS\/Project-store-game\/src\/sass\/_base\.sass}line{font-family:\0000319}}
-body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  color: #F5F5F5;
-  line-height: 113%;
-  font-size: 1.6rem;
-}
+body { font-family: "Montserrat", sans-serif; font-weight: 400; color: #F5F5F5; line-height: 113%; font-size: 1.6rem; }
 
-/*# sourceMappingURL=style.css.map */
+.container { display: grid; grid-template-row: 80vh min-content 40vw repeat(3, min-content); grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] [center-end] minmax(6rem, 1fr) [full-end]; }
+.container > * { font-size: 25px; padding: 40px; color: red; }
+
+.cards { background-color: #F5F5F5; grid-column: center-start/center-end; }
+
+.header { background-color: #101D2C; grid-column: full-start/col-end 6; }
+
+.features { padding: 15rem 0; background-color: #F5F5F5; grid-column: center-start/center-end; display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 3rem 4rem; }
+
+.gamers { background-color: #101D2C; grid-column: col-start 7/full-end; }
+
+.banner-img { background-color: #101D2C; grid-column: full-start/col-end 4; }
+.banner-text { background-color: #101D2C; grid-column: col-start 5/full-end; }
+
+.sidebar { background-color: #425844; grid-column: sidebar-start/sidebar-end; grid-row: 1/-1; }
+
+.gallery { background-color: #101D2C; grid-column: full-start/full-end; }
+
+.footer { background-color: #101D2C; grid-column: full-start/full-end; }
