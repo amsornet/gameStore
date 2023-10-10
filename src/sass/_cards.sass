@@ -5,6 +5,8 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr))
   gap: 4rem 6rem
   padding: 15rem 0
+  @include respond(phone)
+    padding: 5rem 0
 
 .card
   background-color: $color-blue-dark
@@ -33,7 +35,7 @@
   &__svg
     width: 2rem
     height: 2rem
-    margin-right: 10px
+    margin-right: 1rem
   &__btn
     grid-column: 1 / -1
 

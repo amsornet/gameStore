@@ -5,6 +5,8 @@
   display: grid
   grid-template-rows: 1fr min-content minmax(10rem, min-content) 1fr
   background: url("../img/header-bg.png") center / cover no-repeat
+  @include respond(tab-port)
+    grid-column: full-start / full-end
   &__btn
     align-self: start
     justify-self: start
@@ -16,7 +18,7 @@
     grid-template-columns: 1fr max-content 1fr
     grid-column-gap: 2rem
     align-items: center
-
+    margin-bottom: 1rem
     &::before, &::after
       content: ""
       height: .1rem
@@ -37,6 +39,7 @@
 
 .logo
   display: block
+  margin-bottom: 8rem
   &__img
     display: block
     margin: 0 auto

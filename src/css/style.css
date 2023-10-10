@@ -1,40 +1,18 @@
 /*
 Error: Undefined mixin 'respond'.
-        on line 9 of C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_banner.sass, in `respond'
-        from line 9 of C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_banner.sass
-        from line 7 of C:\Users\Amsor\Documents\!Stepik\HTML_Fokeev\AdvancedHTML\gameStore\gameStore\src\sass\style.sass
-
-4: @import "header.sass"
-5: @import "features.sass"
-6: @import "gamers.sass"
-7: @import "banner.sass"
-8: @import "sidebar.sass"
-9: @import "gallery.sass"
-10: @import "footer.sass"
-11: @import "btn.sass"
-12: @import "utilities"
-13: @import "mixins.sass"
+        on line 19 of C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_base.sass, in `respond'
+        from line 19 of C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_base.sass
+        from line 1 of C:\Users\Amsor\Documents\!Stepik\HTML_Fokeev\AdvancedHTML\gameStore\gameStore\src\sass\style.sass
 
 Backtrace:
-C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_banner.sass:9:in `respond'
-C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_banner.sass:9
-C:\Users\Amsor\Documents\!Stepik\HTML_Fokeev\AdvancedHTML\gameStore\gameStore\src\sass\style.sass:7
+C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_base.sass:19:in `respond'
+C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_base.sass:19
+C:\Users\Amsor\Documents\!Stepik\HTML_Fokeev\AdvancedHTML\gameStore\gameStore\src\sass\style.sass:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -90,4 +68,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'respond'.\A         on line 9 of C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_banner.sass, in `respond'\A         from line 9 of C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_banner.sass\A         from line 7 of C:\Users\Amsor\Documents\!Stepik\HTML_Fokeev\AdvancedHTML\gameStore\gameStore\src\sass\style.sass\A \A 4: @import \"header.sass\"\A 5: @import \"features.sass\"\A 6: @import \"gamers.sass\"\A 7: @import \"banner.sass\"\A 8: @import \"sidebar.sass\"\A 9: @import \"gallery.sass\"\A 10: @import \"footer.sass\"\A 11: @import \"btn.sass\"\A 12: @import \"utilities\"\A 13: @import \"mixins.sass\""; }
+  content: "Error: Undefined mixin 'respond'.\A         on line 19 of C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_base.sass, in `respond'\A         from line 19 of C:/Users/Amsor/Documents/!Stepik/HTML_Fokeev/AdvancedHTML/gameStore/gameStore/src/sass/_base.sass\A         from line 1 of C:\Users\Amsor\Documents\!Stepik\HTML_Fokeev\AdvancedHTML\gameStore\gameStore\src\sass\style.sass"; }
